@@ -1,13 +1,13 @@
 import React from 'react';
 import Blogs from './Blogs';
 import BottomFooter from './BottomFooter';
-import CerterFooter from './CerterFooter';
+import CenterFooter from './CenterFooter';
 
 function Footer() {
     return (
         <div>
             <Blogs />
-            <CerterFooter />
+            <CenterFooter />
             <BottomFooter />
         </div>
     );

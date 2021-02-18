@@ -25,11 +25,11 @@ import './BottomFooter.css';
 function BottomFooter() {
     return (
         <div className="border-top">
-            <Container className="">
+            <Container>
                 <Row>
                     <Col md={3}>
                         <div className="mt-5">
-                            <img className=" p-1" src={footerImage} alt="footerImage" />
+                            <img className="p-1" src={footerImage} alt="footerImage" />
                         </div>
                     </Col>
 
