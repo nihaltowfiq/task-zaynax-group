@@ -1,3 +1,5 @@
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button, Form, FormControl, InputGroup, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
@@ -34,13 +36,14 @@ function SearchBar() {
                 </Navbar.Collapse>
                 <Form inline>
                     <InputGroup>
-                        <FormControl
-                            // className="bg-secondary text-white"
-                            type="text"
-                            placeholder="Search"
-                        />
+                        <FormControl className="border-right-0" type="text" placeholder="Search" />
                         <InputGroup.Append>
-                            <Button variant="outline-secondary">$</Button>
+                            <Button
+                                className="border border-left-0 text-center"
+                                variant="transparent"
+                            >
+                                <FontAwesomeIcon icon={faSearch} />
+                            </Button>
                         </InputGroup.Append>
                     </InputGroup>
                 </Form>
