@@ -1,0 +1,33 @@
+.social_icons a {
+  margin: 15px;
+}
+
+.social_icons a:hover .icon {
+  color: #02c865;
+}
+
+.subscribe {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.subscribe {
+  border-bottom: 1.5px solid black !important;
+}
+
+.more_queries .btn {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payment_option > img {
+  margin: 10px 5px;
+}
+
+.contact_us > p {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: -7px !important;
+}
