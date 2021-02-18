@@ -24,7 +24,7 @@ import './BottomFooter.css';
 
 function BottomFooter() {
     return (
-        <div className="border-top">
+        <div className="border-top mb-3">
             <Container>
                 <Row>
                     <Col md={3}>
