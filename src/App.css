@@ -1,0 +1,7 @@
+.search_bar .btn:focus {
+  box-shadow: none;
+}
+.search_bar .form-control:focus {
+  box-shadow: none;
+  border-color: none !important;
+}

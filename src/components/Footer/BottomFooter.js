@@ -83,7 +83,7 @@ function BottomFooter() {
                             <Form>
                                 <InputGroup>
                                     <FormControl
-                                        className="border-0 pl-0"
+                                        className="border-0 form-focus pl-0"
                                         placeholder="Email Address"
                                     />
                                     <InputGroup.Append>

@@ -35,7 +35,7 @@ function SearchBar() {
                     </Nav>
                 </Navbar.Collapse>
                 <Form inline>
-                    <InputGroup>
+                    <InputGroup className="search_bar">
                         <FormControl className="border-right-0" type="text" placeholder="Search" />
                         <InputGroup.Append>
                             <Button

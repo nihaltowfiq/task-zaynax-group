@@ -16,10 +16,18 @@
   border-bottom: 1.5px solid black !important;
 }
 
+.subscribe .form-control:focus {
+  box-shadow: none;
+}
+
 .more_queries .btn {
   color: black;
   font-weight: 600;
   font-size: 14px;
+}
+
+.more_queries .btn {
+  box-shadow: none;
 }
 
 .payment_option > img {
