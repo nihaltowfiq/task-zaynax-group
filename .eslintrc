@@ -42,7 +42,8 @@
         "semi": true,
         "endOfLine": "auto"
       }
-    ]
+    ],
+    "react/self-closing-comp": "off"
   },
   "plugins": ["prettier", "react", "react-hooks"]
 }
