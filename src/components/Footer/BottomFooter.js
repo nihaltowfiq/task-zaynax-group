@@ -13,12 +13,12 @@ import { Button, Col, Container, Form, FormControl, InputGroup, Row } from 'reac
 import amex from '../../assets/amex.png';
 import bkash from '../../assets/bkash.png';
 import customerService from '../../assets/customerService.png';
-import footerImage from '../../assets/footerImage.svg';
 import mainSend from '../../assets/mainSend.png';
 import mastercard from '../../assets/mastercard.png';
 import nagad from '../../assets/nagad.png';
 import phoneLine from '../../assets/phoneLine.png';
 import rocket from '../../assets/rocket.png';
+import footerImage from '../../assets/svg-icons/footerImage.svg';
 import visa from '../../assets/visa.png';
 import './BottomFooter.css';
 
