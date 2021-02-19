@@ -1,7 +1,6 @@
 .product {
-  /* height: 330px !important; */
   margin: 10px 0;
-  border-color: rgb(232, 238, 243);
+  border: 2px solid #80808010;
   border-radius: 10px;
 }
 
