@@ -3,7 +3,7 @@ import handWatch from '../assets/products/handWatch.png';
 import headphone from '../assets/products/headphone.png';
 import shirt from '../assets/products/shirt.png';
 
-const products = [
+const productsData = [
     {
         id: 0,
         title: 'Multicolor Cotton long sleeve shirt for men',
@@ -27,7 +27,7 @@ const products = [
     },
     {
         id: 3,
-        title: 'Stainless Steel and Leather Casual Quartz Chronograph Watch',
+        title: 'Stainless Steel, Leather Casual Watch',
         img: handWatch,
         price: 18590,
         discountPrice: 6320,
@@ -55,11 +55,11 @@ const products = [
     },
     {
         id: 7,
-        title: 'Stainless Steel and Leather Casual Quartz Chronograph Watch',
+        title: 'Stainless Steel, Leather Casual Watch',
         img: handWatch,
         price: 18590,
         discountPrice: 6320,
     },
 ];
 
-export default products;
+export default productsData;

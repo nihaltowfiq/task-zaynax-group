@@ -1,0 +1,28 @@
+.product {
+  /* height: 330px !important; */
+  margin: 10px 0;
+  border-color: rgb(232, 238, 243);
+  border-radius: 10px;
+}
+
+.product > .img_wrapper {
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+}
+
+.product .card-title {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.product .card-text {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.product .extra {
+  font-size: 13px;
+}
