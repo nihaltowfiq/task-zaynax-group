@@ -1,9 +1,12 @@
 import React from 'react';
+import './Sidebar.css';
 
 function Sidebar() {
     return (
-        <div>
-            <h1>Sidebarrrrrrrrrr</h1>
+        <div className="sidebar border">
+            <div>
+                <p>Filter</p>
+            </div>
         </div>
     );
 }
