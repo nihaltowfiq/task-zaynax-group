@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { faCalendarAlt, faCommentAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Col, Container } from 'react-bootstrap';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
@@ -19,6 +19,7 @@ const settings = {
 };
 
 function Blogs() {
+    const [blogs] = useState(sliderData);
     return (
         <Container className="blogs">
             <div className="text-center bg-transparent pt-5 pb-3">
@@ -30,18 +31,18 @@ function Blogs() {
             </div>
 
             <Slider {...settings}>
-                {sliderData.map((item) => (
-                    <Col key={item.id}>
+                {blogs.map((blog) => (
+                    <Col key={blog.id}>
                         <Card className="ml-3 text-white ">
-                            <Card.Img src={item.img} alt="Card image" />
+                            <Card.Img src={blog.img} alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title>{item.type}</Card.Title>
+                                <Card.Title>{blog.type}</Card.Title>
                                 <Card.Text className="cardText">
                                     <span>
-                                        <FontAwesomeIcon icon={faCalendarAlt} /> {item.date}
+                                        <FontAwesomeIcon icon={faCalendarAlt} /> {blog.date}
                                     </span>
                                     <span className="ml-3">
-                                        <FontAwesomeIcon icon={faCommentAlt} /> {item.comments}
+                                        <FontAwesomeIcon icon={faCommentAlt} /> {blog.comments}
                                     </span>
                                 </Card.Text>
                             </Card.ImgOverlay>
