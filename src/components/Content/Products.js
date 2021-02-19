@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import productsData from '../../data/productsData';
@@ -12,6 +13,66 @@ function Products() {
                     <Product key={product.id} product={product} />
                 ))}
             </Row>
+
+            <nav className="mt-5 mb-3">
+                <ul className="pagination p-2  m-auto justify-content-center">
+                    <li className="page-item mr-1 active">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            1
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            2
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            3
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            4
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            5
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            6
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            7
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            8
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            9
+                        </a>
+                    </li>
+                    <li className="page-item mr-1">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            10
+                        </a>
+                    </li>
+                    <li className="page-item">
+                        <a className="page-link rounded-circle border-0" href="#">
+                            Next
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     );
 }

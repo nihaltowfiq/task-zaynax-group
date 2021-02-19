@@ -26,3 +26,17 @@
 .product .extra {
   font-size: 13px;
 }
+.pagination {
+  width: 450px;
+  border-radius: 25px;
+  border: 2px solid #80808010;
+}
+
+.pagination .page-item .page-link {
+  color: gray;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #02c865 !important;
+  color: white;
+}
