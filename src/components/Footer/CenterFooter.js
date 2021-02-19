@@ -9,39 +9,7 @@ import './CenterFooter.css';
 
 function CenterFooter() {
     return (
-        <Container className="my-5">
-            {/* <div className="d-flex">
-                <div className="text-center centerFooter_card">
-                    <img className="my-3" src={QualitySaving} alt="" />
-                    <h6>Quality and Saving</h6>
-                    <p>Comprehensive quality control and affordable prices</p>
-                </div>
-
-                <div className="text-center centerFooter_card">
-                    <img className="my-3" src={QualitySaving} alt="" />
-                    <h6>Quality and Saving</h6>
-                    <p>Comprehensive quality control and affordable prices</p>
-                </div>
-
-                <div className="text-center centerFooter_card">
-                    <img className="my-3" src={QualitySaving} alt="" />
-                    <h6>Quality and Saving</h6>
-                    <p>Comprehensive quality control and affordable prices</p>
-                </div>
-
-                <div className="text-center centerFooter_card">
-                    <img className="my-3" src={QualitySaving} alt="" />
-                    <h6>Quality and Saving</h6>
-                    <p>Comprehensive quality control and affordable prices</p>
-                </div>
-
-                <div className="text-center centerFooter_card">
-                    <img className="my-3" src={QualitySaving} alt="" />
-                    <h6>Quality and Saving</h6>
-                    <p>Comprehensive quality control and affordable prices</p>
-                </div>
-            </div> */}
-
+        <Container className="my-5 pt-3">
             <Row>
                 <Col>
                     <div className="text-center centerFooter_card">

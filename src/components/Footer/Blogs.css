@@ -1,0 +1,28 @@
+.blogs .card {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: 15px;
+}
+
+.blogs .card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 15px;
+}
+
+.blogs .card-title {
+  background-color: #02c865;
+  display: inline;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.blogs .cardText {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 145px;
+}
