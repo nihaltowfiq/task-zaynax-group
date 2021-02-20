@@ -67,7 +67,11 @@ function Products() {
                         </a>
                     </li>
                     <li className="page-item">
-                        <a className="page-link rounded-circle border-0" href="#">
+                        <a
+                            style={{ color: '#01c765' }}
+                            className="page-link rounded-circle border-0"
+                            href="#"
+                        >
                             Next
                         </a>
                     </li>

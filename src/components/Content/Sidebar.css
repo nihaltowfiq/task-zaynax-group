@@ -22,7 +22,7 @@
   padding: 3px 7px;
   color: #999999;
   background-color: #fafafa;
-  font-size: 14px;
+  font-size: 15px;
   border: 1px solid #ececec;
   border-radius: 15px;
 }
@@ -77,15 +77,23 @@
   height: 30px;
   width: 30px;
   border: 1px solid gray;
-  /* display: inline-block; */
   margin: 2px;
   background-color: #01c765;
   padding: 5px;
 }
 
-.colors span {
-  border: 1px solid red;
-  padding: 10px;
-  height: 40px;
-  width: 40px;
+.sidebar_price .btn {
+  border: 1px solid #01c765;
+  background-color: #01c765;
+  color: white;
+}
+
+.sidebar_price .btn:focus {
+  border: 1px solid #01c765;
+  background-color: #01c765;
+}
+
+.sidebar_rating .icon {
+  margin-top: 2px;
+  margin-left: 4px;
 }
