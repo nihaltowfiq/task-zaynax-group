@@ -22,6 +22,10 @@
   margin-bottom: 0;
 }
 
+.product .card-body {
+  padding: 1.25rem 10px !important;
+}
+
 .product .extra {
   font-size: 13px;
 }

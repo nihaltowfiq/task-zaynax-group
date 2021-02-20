@@ -95,7 +95,9 @@ const Product = ({ product }) => (
                     <Col md={7}>
                         <del>BDT. {product.price}</del>
                     </Col>
-                    <Col md={5}>34% Off</Col>
+                    <Col className="text-right" md={5}>
+                        34% Off
+                    </Col>
                 </Row>
             </Card.Body>
         </Card>

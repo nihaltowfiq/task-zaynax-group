@@ -20,13 +20,13 @@ function Sidebar() {
                 </div>
                 <p className="mt-2 ">
                     <span>
-                        Out of Stock <span className="filter_close">&times;</span>
+                        Out of Stock <span>&times;</span>
                     </span>
                 </p>
 
                 <p className="py-1">
                     <span>
-                        Size: XL <span className="filter_close">&times;</span>
+                        Size: XL <span>&times;</span>
                     </span>
                 </p>
 
