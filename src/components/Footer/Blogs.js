@@ -4,19 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import Carousel from 'react-elastic-carousel';
-import 'slick-carousel/slick/slick-theme.css';
-import 'slick-carousel/slick/slick.css';
 import sliderData from '../../data/sliderData';
 import './Blogs.css';
-
-// const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 4,
-//     slidesToScroll: 1,
-//     arrows: true,
-// };
 
 function Blogs() {
     const [blogs] = useState(sliderData);
