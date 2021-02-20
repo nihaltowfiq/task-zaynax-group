@@ -168,7 +168,7 @@ function Sidebar() {
                 </div>
 
                 <Form className="d-flex justify-content-between">
-                    <Form.Control style={{ width: '70px' }} type="text" placeholder="Min" />
+                    <Form.Control style={{ width: '70px' }} type="number" placeholder="Min" />
                     <span className="mt-1"> - </span>
                     <Form.Control style={{ width: '70px' }} type="number" placeholder="Max" />
                     <span> </span>

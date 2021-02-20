@@ -13,7 +13,7 @@ const sliderData = [
         comments: 26,
     },
     {
-        id: 1,
+        id: 2,
         img: mask,
         type: 'Health',
         date: 'Oct 12, 2020',
