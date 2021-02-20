@@ -26,3 +26,34 @@
   font-size: 12px;
   margin-top: 145px;
 }
+
+.rec.rec-arrow {
+  border-radius: 50%;
+  background-color: #01c765;
+  color: white;
+}
+
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+  background-color: #01c765 !important;
+}
+
+.rec .rec-dot {
+  background-color: gray;
+  box-shadow: none;
+}
+
+.rec .rec-dot:hover,
+.rec .rec-dot:focus {
+  box-shadow: none;
+  background-color: #01c765;
+}
+.rec.rec-dot_active {
+  box-shadow: none;
+  background-color: #01c765;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: none;
+}
