@@ -29,7 +29,7 @@
 
 .rec.rec-arrow {
   border-radius: 50%;
-  background-color: #01c765;
+  background-color: #01c765 !important;
   color: white;
 }
 
@@ -46,11 +46,11 @@
 .rec .rec-dot:hover,
 .rec .rec-dot:focus {
   box-shadow: none;
-  background-color: #01c765;
+  background-color: #01c765 !important;
 }
 .rec.rec-dot_active {
   box-shadow: none;
-  background-color: #01c765;
+  background-color: #01c765 !important;
 }
 
 .rec-carousel-item:focus {

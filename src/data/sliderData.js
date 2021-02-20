@@ -47,6 +47,48 @@ const sliderData = [
         date: 'Oct 12, 2020',
         comments: 26,
     },
+    {
+        id: 7,
+        img: fashion,
+        type: 'Fashion',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
+    {
+        id: 8,
+        img: yoga,
+        type: 'Health',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
+    {
+        id: 9,
+        img: hairCare,
+        type: 'News',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
+    {
+        id: 10,
+        img: mask,
+        type: 'Health',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
+    {
+        id: 11,
+        img: fashion,
+        type: 'Fashion',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
+    {
+        id: 12,
+        img: yoga,
+        type: 'Health',
+        date: 'Oct 12, 2020',
+        comments: 26,
+    },
 ];
 
 export default sliderData;
